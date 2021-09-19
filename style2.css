@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+    position: fixed;
+}
+
+.slime{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-color: green;
+}
+
+.slime:hover{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border-color: black;
+}
+
+.slime::before{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    position: relative;
+}
+
